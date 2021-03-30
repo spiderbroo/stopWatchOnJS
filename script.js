@@ -27,6 +27,7 @@ const resetBtn = document.querySelector('.reset');
 startBtn.addEventListener('click', () => {
     stopWatch = setInterval(displayClock, 0.01);
     startBtn.disabled = true;
+    time = Date.now();
 });
 
 stopBtn.addEventListener('click', () => {

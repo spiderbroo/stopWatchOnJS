@@ -1,0 +1,44 @@
+.container {
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 300px;
+    border: 15px double rgba(161, 161, 161, 0.425);
+    border-radius: 50%;
+}
+.clock {
+    font-size: 50px;
+}
+p {
+    text-align: center;
+    color: blue;
+}
+button {
+    width: 75px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    outline: none;
+}
+button:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+.btns {
+    width: 300px;
+    margin-left: 55px;
+}
+.start {
+    background-color: green;
+}
+.stop {
+    background-color: red;
+}
+.reset {
+    background-color: grey;
+    border-radius: 50%;
+    height: 75px;
+}
