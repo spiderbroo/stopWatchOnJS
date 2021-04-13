@@ -79,9 +79,12 @@ button:hover {
 }
 .start {
     background-color: green;
-    background: radial-gradient(circle at 85% 10%, rgb(135, 250, 125), rgb(10, 134, 52));
+    background: radial-gradient(circle at 85% 5%, rgb(135, 250, 125), rgb(10, 134, 52));
     box-shadow: -5px 5px 15px 1px rgb(97, 97, 97),
                 5px -5px 15px 1px rgb(253, 251, 249) ;
+}
+.start:hover {
+    background: radial-gradient(circle at 85% 1%, rgb(81, 218, 68), rgb(0, 70, 23));
 }
 .stop {
     background-color: red;
@@ -89,11 +92,17 @@ button:hover {
     box-shadow: -2px 8px 15px 1px rgb(97, 97, 97),
                 2px -8px 15px 1px rgb(253, 251, 249)  ;
 }
+.stop:hover {
+    background: radial-gradient(circle at 75% 1%, rgb(252, 124, 124), rgb(173, 0, 0));
+}
 .reset {
     background-color: grey;
     border-radius: 50%;
     height: 75px;
-    background: radial-gradient(circle at 85% 10%, rgb(135, 250, 125), rgb(10, 134, 52));
+    background: radial-gradient(circle at 85% 10%, rgb(155, 243, 255), rgb(70, 92, 216));
     box-shadow: -4px 6px 15px 1px rgb(97, 97, 97),
                 4px -6px 15px 1px rgb(253, 251, 249)  ;
+}
+.reset:hover {
+    background: radial-gradient(circle at 85% 10%, rgb(89, 234, 253), rgb(33, 61, 218));
 }
