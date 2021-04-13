@@ -5,7 +5,7 @@ let clockDisplay = document.querySelector('.clock');
 
 function displayClock() {
     DateNowIs = Date.now();
-    let hours = Math.floor((DateNowIs - time)/600000);
+    let hours = Math.floor((DateNowIs - time)/3600000);
     let minutes = Math.floor(((DateNowIs - time) / 60000) % 60);
     let seconds = Math.floor(((DateNowIs - time) / 1000) % 60);
     let milliseconds = Math.floor((DateNowIs - time) % 1000)
