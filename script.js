@@ -27,6 +27,7 @@ startBtn.addEventListener('click', () => {
     stopWatch = setInterval(displayClock, 0.01);
     startBtn.disabled = true;
     time = Date.now();
+    displayClock();
 });
 
 stopBtn.addEventListener('click', () => {
@@ -42,4 +43,3 @@ resetBtn.addEventListener('click', () => {
     displayClock();
 });
 
-displayClock();
