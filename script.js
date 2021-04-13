@@ -14,8 +14,7 @@ function displayClock() {
     let displayMinutes = (minutes < 10) ? '0' + minutes : minutes;
     let displaySeconds = (seconds < 10) ? '0' + seconds : seconds;
     let displayMilliseconds = (milliseconds < 10) ? '00' + milliseconds : (milliseconds < 100 && milliseconds >10) ? '0' + milliseconds : milliseconds;
-
-    clockDisplay.textContent = displayHours + ":" + displayMinutes + ":" + displaySeconds + "." + displayMilliseconds;
+    clockDisplay.textContent = `${displayHours}:${displayMinutes}:${displaySeconds}.${displayMilliseconds}`;
 
     time++;
 };
